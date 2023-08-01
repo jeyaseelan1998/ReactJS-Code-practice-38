@@ -1,1 +1,22 @@
-/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 600;
+  margin-top: 0;
+  width: 250px;
+  align-self: center;
+}
+
+.main-heading span {
+  font-size: 32px;
+  display: block;
+  margin-top: 15px;
+}

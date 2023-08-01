@@ -1,1 +1,54 @@
-/* Write your CSS here */
+.project-timeline-card-container {
+  height: 100%;
+  width: 100%;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-title-duration-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-title {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: Roboto;
+}
+
+.project-duration-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-duration-icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.project-duration {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 16x;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.project-description {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18x;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.visit-link {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
